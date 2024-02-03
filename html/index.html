@@ -1,0 +1,98 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="manifest" href="./manifest/manifest.webmanifest">
+  <title>Project 1</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <h3><span class="Site-logo">Site logo</span> Site Title</h3>
+    </div>
+    <ul class="nav">
+      <li><a href="#" class="home">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="header">
+    <div class="left">
+      <h1>
+        A realy catchy header to get your business aspects off the ground and
+        running
+      </h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+        deserunt laborum veritatis vitae dolores expedita deleniti voluptas
+        voluptatem? Cum praesentium autem tempora officia ipsa, minima soluta
+        blanditiis natus! Ducimus, natus.
+      </p>
+      <button type="submit" class="btn">Contact us today</button>
+    </div>
+    <div class="right">
+      <img src="/img.jpg" alt="" class="head-img" />
+    </div>
+  </div>
+  <section class="content">
+    <div class="card">
+      <h3>
+        <i class="fa-solid fa-chart-line"></i> Real time stats,right way
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+        consectetur, quae accusamus adipisci dolores quaerat.
+      </p>
+    </div>
+    <div class="card">
+      <h3><i class="fa-solid fa-gears"></i> Option that go on forever</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+        consectetur, quae accusamus adipisci dolores quaerat.
+      </p>
+    </div>
+    <div class="card">
+      <h3><i class="fa-solid fa-phone"></i> Full customer support, always</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+        consectetur, quae accusamus adipisci dolores quaerat.
+      </p>
+    </div>
+    <div class="card">
+      <h3><i class="fa-solid fa-gauge"></i> Dashboard,we've got that too</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+        consectetur, quae accusamus adipisci dolores quaerat.
+      </p>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="links">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </footer>
+</body>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register("/serviceWorker.js").then(register => {
+        console.log(register);
+      }).catch(err => console.log(err))
+    })
+  }
+</script>
+
+</html>

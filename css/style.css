@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Rubik:ital@1&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: indianred;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.home {
+    background-color: indianred;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+.navbar a {
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0 50px;
+    margin-top: 20px;
+}
+
+.nav li a {
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Site-logo {
+    border: 8px solid #fff;
+    /* padding: 10px; */
+    margin-left: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 30px 80px;
+    justify-content: space-between;
+}
+
+.left {
+    /* width: 40%; */
+    margin-right: 30px;
+    color: #fff;
+}
+
+.head-img {
+    width: 500px;
+    border-radius: 16px;
+}
+
+.btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.content {
+    background-color: rgb(195, 195, 195);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 5px rgb(172, 172, 172);
+}
+
+.card i {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.links {
+    color: #f9f9f9;
+    /* width: 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.links i {
+    padding: 20px;
+    margin: 20px;
+    font-size: 2em;
+}
+
+.links i:hover {
+    color: indianred
+}
